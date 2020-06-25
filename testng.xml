@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Offline Test-Suite" thread-count="2" parallel="tests">
+<listeners>
+<listener class-name="com.listeners.TestListeners"></listener>
+<listener class-name="com.report.ExtentReport"></listener>
+<listener class-name="com.listeners.IAnnotation"></listener>
+</listeners>
+  <test name="LoginTestChrome">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="com.onlineproject.LoginTest"/>
+    </classes>
+  </test> 
+  
+  <test name="LoginTestFF">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.onlineproject.LoginTest"/>
+    </classes>
+  </test> 
+  
+</suite> 

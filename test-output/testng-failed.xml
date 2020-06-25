@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Offline Test-Suite]">
+  <listeners>
+    <listener class-name="com.listeners.TestListeners"/>
+    <listener class-name="com.report.ExtentReport"/>
+    <listener class-name="com.listeners.IAnnotation"/>
+  </listeners>
+  <test thread-count="5" name="LoginTest(failed)">
+    <classes>
+      <class name="com.onlineproject.LoginTest">
+        <methods>
+          <include name="launchLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.onlineproject.LoginTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Offline Test-Suite] -->

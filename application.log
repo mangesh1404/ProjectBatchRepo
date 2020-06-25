@@ -1,0 +1,7 @@
+2020-06-20 09:42:28,442  INFO [main] TestBase:34 - loading config.properties
+2020-06-20 09:43:07,694  INFO [main] TestBase:34 - loading config.properties
+2020-06-20 09:43:17,034  INFO [main] TestBase:34 - loading config.properties
+2020-06-20 09:43:17,473  INFO [main] TestBase:15 - Retrying failed test case for count 0
+2020-06-20 09:43:17,488  INFO [main] TestBase:15 - Retrying failed test case for count 1
+2020-06-20 09:43:17,498  INFO [main] TestBase:15 - Retrying failed test case for count 2
+2020-06-20 09:43:17,509  INFO [main] TestBase:19 - skip Retrying failed test case as max limit reached as 3
